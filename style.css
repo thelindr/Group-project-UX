@@ -48,3 +48,8 @@ nav {
 	top:20px;
 	left:20px;
 }
+
+p {
+	font-family: 'Libre Baskerville', serif;
+	font-size: 21px;
+}
