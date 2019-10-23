@@ -9,7 +9,7 @@ header {
 }
 
 section {
-  width: 50%;
+  width: 680px;
   margin: auto;
   margin-top: 100px;
 }
@@ -17,6 +17,7 @@ section {
 video {
   width: 40%;
 }
+
 
 /* .flex-holder {
   position: relative;
