@@ -15,8 +15,15 @@ section {
 }
 
 video {
-  width: 50%;
+  width: 40%;
 }
+
+/* .flex-holder {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} */
 
 nav {
 	width: 200px;
