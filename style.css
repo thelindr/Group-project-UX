@@ -16,6 +16,10 @@ header {
   overflow: hidden;
 }
 
+footer {
+  height: 300px;
+}
+
 .backgroundimg {
   width: 700px;
   height: 450px;
@@ -134,7 +138,7 @@ width: 100%;
 .img-hover-zoom {
   width: 300px;
   overflow: hidden;
-  
+
 }
 .img-hover-zoom img {
   transition: transform .2s ease;
