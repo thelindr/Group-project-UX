@@ -76,3 +76,29 @@ p {
 	font-size: 21px;
 }
 
+
+a {
+outline: none;
+text-decoration: none;
+}
+
+
+a:link {
+
+}
+
+a:visited {
+
+}
+
+a:focus {
+
+}
+
+a:hover {
+
+}
+
+a:active {
+
+}
