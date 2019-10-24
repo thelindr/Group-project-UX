@@ -122,6 +122,10 @@ a:active {
 
 }
 
+::selection {
+  background: #c1ddb1;
+}
+
 .first-section img {
 width: 100%;
 
