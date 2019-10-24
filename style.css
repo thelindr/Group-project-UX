@@ -123,8 +123,10 @@ background: #abdd8d;
 }
 
 a:active {
-
+background: #ddc4dd;
+color:ffffff;
 }
+
 
 ::selection {
   background: #c1ddb1;
