@@ -2,13 +2,27 @@ body {
   font-family: Lato;
   width: 100%;
 }
+html {
+  scroll-behavior:smooth
+}
 
 header {
   position: relative;
-  width: 680px;
+  width: 100vw;
+  height: 400px;
   margin: auto;
-  margin-top: 30px;
+  margin-top: 0px;
+  background-color: #daf0f6;
   overflow: hidden;
+}
+
+.backgroundimg {
+  width: 700px;
+  height: 450px;
+  background-image: url("./Assets/world-heart-day-NR.jpg");
+  margin: auto;
+  background-repeat: no-repeat;
+  background-position: top center;
 }
 
 header img {
@@ -16,7 +30,7 @@ header img {
 }
 
 section {
-  margin-top: 50px;
+  margin-top: 100px;
 }
 
 .flex-card {
@@ -47,23 +61,29 @@ nav {
   left: 40px;
 	display: flex;
 	flex-direction: column;
+  margin-top: 250px;
 
 }
 
 #navLista {
-	list-style-type: none;
 	position: relative;
 	margin-top: 10px;
 	font-size: 24px;
 	line-height: 2.5;
+	padding: 10px;
+
 }
 
 #navRubrik {
 	position: relative;
 	top:20px;
-	left:20px;
+	left:30px;
 	font-size: 30px;
-	margin: 10px;
+}
+
+#navLista a {
+position: absolute;
+left: 30px;
 }
 
 p {
@@ -75,6 +95,33 @@ p {
 	font-family: 'Amiri', serif;
 	font-size: 21px;
 }
+
+a {
+outline: none;
+text-decoration: none;
+}
+
+
+a:link {
+
+}
+
+a:visited {
+color: #000000;
+}
+
+a:focus {
+
+}
+
+a:hover {
+background: #a997df;
+}
+
+a:active {
+
+}
+
 .first-section img {
 width: 100%;
 
