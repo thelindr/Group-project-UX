@@ -114,7 +114,7 @@ a:focus {
 }
 
 a:hover {
-background: #a997df;
+background: #abdd8d;
 }
 
 a:active {
@@ -125,7 +125,7 @@ a:active {
 width: 40%;}
 
 ::selection {
-  background: #ffb7b7;
+  background: #c1ddb1;
 }
 
 footer {
