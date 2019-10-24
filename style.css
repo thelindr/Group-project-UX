@@ -76,7 +76,6 @@ p {
 	font-size: 21px;
 }
 
-
 a {
 outline: none;
 text-decoration: none;
@@ -102,6 +101,9 @@ background: #a997df;
 a:active {
 
 }
+
+.first-section img {
+width: 40%;}
 
 ::selection {
   background: #ffb7b7;
