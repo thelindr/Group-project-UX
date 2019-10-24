@@ -88,7 +88,7 @@ a:link {
 }
 
 a:visited {
-
+color: #000000;
 }
 
 a:focus {
@@ -96,9 +96,13 @@ a:focus {
 }
 
 a:hover {
-
+background: #a997df;
 }
 
 a:active {
 
+}
+
+::selection {
+  background: #ffb7b7;
 }
